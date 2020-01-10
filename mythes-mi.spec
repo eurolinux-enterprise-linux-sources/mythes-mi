@@ -2,7 +2,7 @@ Name: mythes-mi
 Summary: Maori thesaurus
 %define upstreamid 20080630
 Version: 0.%{upstreamid}
-Release: 8%{?dist}
+Release: 9%{?dist}
 Source: http://packages.papakupu.maori.nz/mythes/mythes-mi-0.1.%{upstreamid}-beta.tar.gz
 Group: Applications/Text
 URL: http://papakupu.maori.nz/
@@ -34,6 +34,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20080630-9
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20080630-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
